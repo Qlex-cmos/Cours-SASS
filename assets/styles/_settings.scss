@@ -1,0 +1,18 @@
+// Variables -> $
+$color1 : rgb(244, 48, 77);
+$color2 : orange;
+$color3: cyan;
+$white: rgb(241, 241, 241);
+$black: rgb(15, 15, 15);
+
+// mixins
+@mixin centerchild {
+// 3 lignes suivantes pour centrer parfaitement un élément dans son parent s'il est enfant unique
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: $color2;
+}
