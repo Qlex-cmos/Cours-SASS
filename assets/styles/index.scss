@@ -1,8 +1,10 @@
 // index.scss rassemble tous les fichiers sass
-
+// mettre settings toujours en premier pour que sass connaisse les variables
+@import "./settings";
 @import "./layout/navbar";
 @import "./layout/header";
 @import "./layout/section";
 @import "./layout/footer";
 @import "./components/buttons";
+
 
